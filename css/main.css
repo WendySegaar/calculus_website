@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+:root {
+	--light-blue: #83aff7;
+	--dark-blue: #07347c;
+	--light-grey: #c4c4c4;
+}
+
+* {margin: 0 auto; padding: 0 auto;}
+
+#rekenmachine{
+	width: 18vw;
+	background-color: var(--dark-blue);
+	padding: 2vw;
+	text-align: center;
+}
+input {
+	display: inline-block;
+	width: 6vw;
+	height: 2vw;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  
+    -webkit-appearance: none;
+}
+button {
+	margin-top: 1vw;
+	width: 5vw;
+	height: 5vw;
+	font-size: 3vw;
+	cursor: pointer;
+  	outline: none;
+  	border: 0;
+  	font-weight: bold;
+  	background-color: var(--light-grey);
+}
